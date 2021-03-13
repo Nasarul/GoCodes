@@ -10,7 +10,7 @@ fmt.Printf("\nEnter the end value of the serice: ")
 fmt.Scanf("%d", &n) 
 fmt.Printf("\nThe serice are: ")
 
-for i:=1; i<=10; i++ {
+for i:=1; i<=n; i++ {
 	fmt.Printf("%v ",i)
 	}
 }
